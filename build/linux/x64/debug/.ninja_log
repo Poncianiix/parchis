@@ -1,0 +1,56 @@
+# ninja log v5
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	87e4baf1b5cd4181
+15	8111	0	flutter/_phony_	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	87e4baf1b5cd4181
+8112	9462	1682293599614079078	CMakeFiles/parchis.dir/flutter/generated_plugin_registrant.cc.o	fff8083263d8c8
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	87e4baf1b5cd4181
+8112	9574	1682293599726073575	CMakeFiles/parchis.dir/my_application.cc.o	1b6e4424bb6fb136
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	87e4baf1b5cd4181
+9574	9938	1682293600098055308	intermediates_do_not_run/parchis	f502b0d4fb6f696f
+28483	29798	1681925767226292503	CMakeFiles/parchis.dir/main.cc.o	d45dadc11e9c17b5
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	87e4baf1b5cd4181
+9938	10169	0	CMakeFiles/install.util	7ec8e39597d8f6ff
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/build/linux/x64/debug/flutter/_phony_	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/libflutter_linux_gtk.so	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_value.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_view.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_engine.h	87e4baf1b5cd4181
+15	8111	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/libflutter_linux_gtk.so	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_engine.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_value.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/fl_view.h	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	87e4baf1b5cd4181
+4	5125	0	flutter/_phony_	87e4baf1b5cd4181
+4	5125	0	/home/poncianix/Documentos/Escuela/Octavo Semestre/Ingenieria de Software/parchis/build/linux/x64/debug/flutter/_phony_	87e4baf1b5cd4181
+5126	6224	1682293615605305348	CMakeFiles/parchis.dir/my_application.cc.o	1b6e4424bb6fb136
+5126	6245	1682293615625304395	CMakeFiles/parchis.dir/flutter/generated_plugin_registrant.cc.o	fff8083263d8c8
+6246	6539	1682293615925290096	intermediates_do_not_run/parchis	f502b0d4fb6f696f
+6540	6774	0	CMakeFiles/install.util	7ec8e39597d8f6ff
