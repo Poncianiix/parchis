@@ -129,7 +129,7 @@ class _SelectNameState extends State<SelectName> {
                       child: const Text(
                         'Continuar',
                         style: TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
                         ),

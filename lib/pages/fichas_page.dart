@@ -313,7 +313,7 @@ class _FichasPageState extends State<FichasPage>
                   child: const Text(
                     'Pasar turno',
                     style: TextStyle(
-                      fontSize: 30.0,
+                      fontSize: 20.0,
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),

@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
           child: MaterialApp(
             title: 'Parchis',
             debugShowCheckedModeBanner: false,
-            initialRoute: 'seleccionarNombre',
+            initialRoute: 'dados',
             routes: {
               'seleccionarNombre': (BuildContext context) => const SelectName(),
               'espera': (BuildContext context) => const WaitingPage(),

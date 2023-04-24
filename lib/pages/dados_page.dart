@@ -283,7 +283,7 @@ class _DadosPageState extends State<DadosPage>
                     ],
                   ),
                 ),
-                const SizedBox(height: 70.0),
+                const SizedBox(height: 40.0),
                 ElevatedButton(
                   onPressed: isButtonDisabled
                       ? null
@@ -303,7 +303,7 @@ class _DadosPageState extends State<DadosPage>
                   child: Text(
                     isButtonPressed ? 'Tirar' : 'Tirar',
                     style: const TextStyle(
-                      fontSize: 30.0,
+                      fontSize: 20.0,
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),
