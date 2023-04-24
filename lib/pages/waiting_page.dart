@@ -44,7 +44,7 @@ class _WaitingPageState extends State<WaitingPage> {
     final GraphQLClient client = GraphQLClient(
       cache: GraphQLCache(),
       link: HttpLink(
-        'http://localhost:4000',
+        'https://gameback.onrender.com',
       ),
     );
 

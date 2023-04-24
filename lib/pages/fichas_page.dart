@@ -35,7 +35,7 @@ class _FichasPageState extends State<FichasPage>
   void actualizarPosicion(numero, ficha) async {
     final GraphQLClient client = GraphQLClient(
       cache: GraphQLCache(),
-      link: HttpLink('http://localhost:4000',
+      link: HttpLink('https://gameback.onrender.com',
           defaultHeaders: {'Authorization': 'Bearer ${globals.token}'}),
     );
 
@@ -60,7 +60,7 @@ class _FichasPageState extends State<FichasPage>
     final GraphQLClient client = GraphQLClient(
       cache: GraphQLCache(),
       link: HttpLink(
-        'http://localhost:4000',
+        'https://gameback.onrender.com',
       ),
     );
 

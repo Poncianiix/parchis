@@ -50,7 +50,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
   void actualizarPosicion() async {
     final GraphQLClient client = GraphQLClient(
       cache: GraphQLCache(),
-      link: HttpLink('http://localhost:4000',
+      link: HttpLink('https://gameback.onrender.com',
           defaultHeaders: {'Authorization': 'Bearer ${globals.token}'}),
     );
 
@@ -77,7 +77,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
     final GraphQLClient client = GraphQLClient(
       cache: GraphQLCache(),
       link: HttpLink(
-        'http://localhost:4000',
+        'https://gameback.onrender.com',
       ),
     );
 

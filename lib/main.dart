@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:parchis/pages/dados_page.dart';
 import 'package:parchis/pages/fichas_page.dart';
+import 'package:parchis/pages/query.dart';
 import 'package:parchis/pages/waiting_page.dart';
 import 'package:parchis/pages/waiting_turn_page.dart';
 
@@ -15,7 +16,7 @@ void main() {
 class MyApp extends StatelessWidget {
   MyApp({super.key});
   final HttpLink httpLink = HttpLink(
-    'http://localhost:4000',
+    'https://gameback.onrender.com',
   );
 
   // This widget is the root of your application.
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
           child: MaterialApp(
             title: 'Parchis',
             debugShowCheckedModeBanner: false,
-            initialRoute: 'dados',
+            initialRoute: 'seleccionarNombre',
             routes: {
               'seleccionarNombre': (BuildContext context) => const SelectName(),
               'espera': (BuildContext context) => const WaitingPage(),
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
               'dados': (BuildContext context) => const DadosPage(),
               'preguntas': (BuildContext context) => const QuestionScreen(),
               'fichas': (BuildContext context) => const FichasPage(),
+              'test': (BuildContext context) => const QueryPage(),
             },
           ));
     } catch (e) {

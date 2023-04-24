@@ -46,7 +46,7 @@ class _WaitingTurnPageState extends State<WaitingTurnPage> {
     final GraphQLClient client = GraphQLClient(
       cache: GraphQLCache(),
       link: HttpLink(
-        'http://localhost:4000',
+        'https://gameback.onrender.com',
       ),
     );
 
@@ -59,41 +59,46 @@ class _WaitingTurnPageState extends State<WaitingTurnPage> {
     if (result.hasException) {
       //print(result.exception);
     } else {
-      final List gamers = result.data!['getActiveGeneral']['gamers'];
-      List<String> ids = [];
-      List<String> names = [];
-      for (var gamer in gamers) {
-        ids.add(gamer['id']);
-        names.add(gamer['name']);
-      }
-      //print(ids);
-      if (globals.id == ids[0]) {
-        globals.color = "r";
-      } else if (globals.id == ids[1]) {
-        globals.color = "v";
-      } else if (globals.id == ids[2]) {
-        globals.color = "a";
-      } else if (globals.id == ids[3]) {
-        globals.color = "az";
-      }
+      if (result.data?['getActiveGeneral']['gamers'] == null) {
+      } else {
+        //print(result.data?['getActiveGeneral']['gamers']);
 
-      //print(names);
-      //print(globals.color);
-
-      // Aquí puedes hacer algo con los datos obtenidos, por ejemplo, actualizar el estado de la página
-      setState(() {
-        gamerIds = ids;
-        gamerNames = names;
-
-        // Buscar similitudes en la lista de IDs
-        if (gamerIds.contains(globals.id)) {
-          Navigator.pushReplacementNamed(context, 'espera');
-
-          //print('El ID del jugador está en la lista');
-        } else {
-          //print("El ID del jugador no está en la lista");
+        final List gamers = result.data?['getActiveGeneral']['gamers'];
+        List<String> ids = [];
+        List<String> names = [];
+        for (var gamer in gamers) {
+          ids.add(gamer['id']);
+          names.add(gamer['name']);
         }
-      });
+        //print(ids);
+        if (globals.id == ids[0]) {
+          globals.color = "r";
+        } else if (globals.id == ids[1]) {
+          globals.color = "v";
+        } else if (globals.id == ids[2]) {
+          globals.color = "a";
+        } else if (globals.id == ids[3]) {
+          globals.color = "az";
+        }
+
+        //print(names);
+        //print(globals.color);
+
+        // Aquí puedes hacer algo con los datos obtenidos, por ejemplo, actualizar el estado de la página
+        setState(() {
+          gamerIds = ids;
+          gamerNames = names;
+
+          // Buscar similitudes en la lista de IDs
+          if (gamerIds.contains(globals.id)) {
+            Navigator.pushReplacementNamed(context, 'espera');
+
+            //print('El ID del jugador está en la lista');
+          } else {
+            //print("El ID del jugador no está en la lista");
+          }
+        });
+      }
     }
   }
 
